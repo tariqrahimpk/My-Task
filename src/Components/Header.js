@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../Asstes/Images/logo1.png"
+import logo from "../Asstes/Images/mirost-logo1 1.png"
 
 const Header = () => {
     return (
@@ -12,13 +12,13 @@ const Header = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" style={{color:"black"}}></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mx-5">
+                    <div className="collapse navbar-collapse fw-bolder " id="navbarSupportedContent">
+                        <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="!#" style={{ color: 'black' }}>Home</a>
+                                <a className="nav-link ms-0 ms-md-4" href="!#" style={{ color: 'black' }}>Home</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="!#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'black' }}>
+                                <a className="nav-link dropdown-toggle ms-0 ms-md-3" href="!#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'black' }}>
                                     Our Products
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -28,18 +28,18 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="!#" style={{ color: 'black' }}>About Us</a>
+                                <a className="nav-link ms-0 ms-md-3" href="!#" style={{ color: 'black' }}>About Us</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="!#" style={{ color: 'black' }}>Categories</a>
+                                <a className="nav-link ms-0 ms-md-3" href="!#" style={{ color: 'black' }}>Categories</a>
                             </li>
                         </ul>
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
-                                <a className="nav-link text-danger" href="!#" style={{ color: 'black' }}>Login</a>
+                            <li className="nav-item mx-0 mx-md-4">
+                                <a className="nav-link text-danger" href="!#" style={{ color: 'black' }}>Sign Up</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white bg-danger rounded" href="!#">Sign Up</a>
+                                <a className="nav-link text-white bg-danger rounded px-3 py-2" href="!#">Log In</a>
                             </li>
                         </ul>
                     </div>
