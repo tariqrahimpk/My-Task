@@ -113,7 +113,7 @@ const Cards = () => {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row mt-3">
                 {cardData.map((card, index) => (
                     <div className="col-lg-3 col-md-6 mb-4 pe-4 ps-4" key={index}>
                         <div className="card border-0">

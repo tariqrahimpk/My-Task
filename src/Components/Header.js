@@ -12,7 +12,7 @@ const Header = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" style={{color:"black"}}></span>
                     </button>
-                    <div className="collapse navbar-collapse fw-semibold fs-5" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse fw-semibold fs-6" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
                                 <a className="nav-link ms-0 ms-md-5" href="!#" style={{ color: 'black' }}>Home</a>

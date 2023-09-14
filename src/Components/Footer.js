@@ -22,12 +22,12 @@ const Footer = () => {
 
                             <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
 
-                                <div className="rounded-circle bg-white shadow-1-strong  mb-4 mx-auto" >
+                                <div className="rounded-circle bg-white shadow-1-strong  mb-3 mx-auto" >
                                     <img src={logo} alt=""
                                         loading="lazy" className='img-fluid w-50 h-50' />
                                 </div>
 
-                                <p className="pe-0 pe-md-5 mb-4">Generate outside the box <br></br> thinking with the possibility to <br></br> targtet the low.</p>
+                                <p className="pe-0 pe-md-5 mb-3">Generate outside the box <br></br> thinking with the possibility to <br></br> targtet the low.</p>
 
                                 <ul className="list-unstyled d-flex flex-row justify-content-lg-start justify-content-center">
                                     <li>
